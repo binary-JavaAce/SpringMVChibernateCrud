@@ -1,0 +1,5 @@
+package springmvc2.service;
+
+public class StudentService {
+
+}

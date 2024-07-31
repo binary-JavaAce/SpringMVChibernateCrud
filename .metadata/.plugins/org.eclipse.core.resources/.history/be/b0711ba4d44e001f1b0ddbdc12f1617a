@@ -1,0 +1,18 @@
+package springmvc2.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+import springmvc2.dao.StudentDao;
+
+@Component
+@Service
+public class StudentService {
+
+	@Autowired
+	StudentDao dao;
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package springmvc2.model;
+
+public class Student {
+
+}

@@ -1,0 +1,17 @@
+127.0.0.1 - - [28/Jul/2024:09:38:01 -0400] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:38:02 -0400] "GET /springmvc/ HTTP/1.1" 200 248
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:15 -0400] "POST /springmvc/login HTTP/1.1" 200 229
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:18 -0400] "GET /springmvc/list HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:18 -0400] "GET /springmvc/webjars/jquery/3.7.1/jquery.min.js HTTP/1.1" 200 87533
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:18 -0400] "GET /springmvc/webjars/bootstrap/5.3.2/js/bootstrap.min.js HTTP/1.1" 200 60577
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:18 -0400] "GET /springmvc/webjars/bootstrap/5.3.2/css/bootstrap.min.css HTTP/1.1" 200 232948
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:25 -0400] "GET /springmvc/add HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:46 -0400] "POST /springmvc/add HTTP/1.1" 500 4109
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:57 -0400] "GET /springmvc/add HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:39:59 -0400] "GET /springmvc/list HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:40:04 -0400] "GET /springmvc/update/2 HTTP/1.1" 500 4068
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:40:07 -0400] "GET /springmvc/list HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:40:09 -0400] "GET /springmvc/delete/2 HTTP/1.1" 500 4068
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:40:28 -0400] "GET /springmvc/list HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:40:32 -0400] "GET /springmvc/list HTTP/1.1" 200 1963
+0:0:0:0:0:0:0:1 - - [28/Jul/2024:09:42:07 -0400] "GET /springmvc/ HTTP/1.1" 200 248

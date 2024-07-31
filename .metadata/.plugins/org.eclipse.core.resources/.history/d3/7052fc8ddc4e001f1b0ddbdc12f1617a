@@ -1,0 +1,26 @@
+package springmvc2.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class StudentController {
+
+	
+	@RequestMapping(value="/add", method=RequestMethod.GET)
+	public ModelAndView addStudent() {
+		ModelAndView m=new ModelAndView();
+		m.setViewName("addStudent");
+		return m;
+	}
+	
+	@RequestMapping(value="/insert", method=RequestMethod.GET)
+	public ModelAndView insertStudent() {
+		ModelAndView m=new ModelAndView();
+		m.setViewName("addStudent");
+		return m;
+	}
+	
+}

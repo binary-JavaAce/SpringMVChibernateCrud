@@ -1,0 +1,24 @@
+package springmvc2.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Component;
+
+import springmvc2.model.Student;
+
+@Component
+public class StudentDao {
+
+	@Autowired
+	HibernateTemplate hibernateTemplate;
+	
+	public void addStudent(Student st) {
+		hibernateTemplate.save(st);
+	}
+	
+	public void getStudents() {
+		hibernateTemplate.loadAll(Student.class);
+	}
+	
+	
+}
