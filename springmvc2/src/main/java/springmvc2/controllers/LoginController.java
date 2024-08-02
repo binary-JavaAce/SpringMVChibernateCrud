@@ -30,7 +30,7 @@ public class LoginController {
 			m.addAttribute("students", service.getStudents());
 			m.addAttribute("title", "Student List");
 			
-			mv.setViewName("StudentList");
+			mv.setViewName("studentList");
 			return mv;
 		
 		}

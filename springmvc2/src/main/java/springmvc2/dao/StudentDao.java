@@ -34,7 +34,7 @@ public class StudentDao {
 	}
 	@Transactional
 	public void deleteStudent(int id) {
-		hibernateTemplate.delete(getStudentById(id));
+		hibernateTemplate.delete(hibernateTemplate.get(Student.class, id));
 	}
 	
 }

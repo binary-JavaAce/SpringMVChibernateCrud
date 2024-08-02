@@ -33,8 +33,6 @@
 			</div>
 		</div>
 		<a href="${pageContext.request.contextPath }/" class="btn btn-warning"> Back</a>
-		
-		
 		<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 </div>
